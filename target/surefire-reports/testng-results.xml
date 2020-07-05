@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="InetBankingV1" duration-ms="134839" started-at="2020-07-05T16:22:20 IST" finished-at="2020-07-05T16:24:35 IST">
+    <groups>
+      <group name="TC01.skip">
+        <method signature="TC01_Login.loginTest()[pri:0, instance:com.TestCases.TC01_Login@52a86356]" name="loginTest" class="com.TestCases.TC01_Login"/>
+      </group> <!-- TC01.skip -->
+    </groups>
+    <test name="Chrome Test" duration-ms="134839" started-at="2020-07-05T16:22:20 IST" finished-at="2020-07-05T16:24:35 IST">
+      <class name="com.TestCases.TC01_Login">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.TestCases.TC01_Login@52a86356]" name="setup" is-config="true" duration-ms="17374" started-at="2020-07-05T16:22:21 IST" finished-at="2020-07-05T16:22:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.TestCases.TC01_Login@52a86356]" name="loginTest" duration-ms="3014" started-at="2020-07-05T16:22:38 IST" finished-at="2020-07-05T16:22:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:com.TestCases.TC01_Login@52a86356]" name="tearUp" is-config="true" duration-ms="1483" started-at="2020-07-05T16:22:41 IST" finished-at="2020-07-05T16:22:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- com.TestCases.TC01_Login -->
+      <class name="com.TestCases.TC03_AddCustomer">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.TestCases.TC03_AddCustomer@5ce81285]" name="setup" is-config="true" duration-ms="21951" started-at="2020-07-05T16:22:43 IST" finished-at="2020-07-05T16:23:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:com.TestCases.TC03_AddCustomer@5ce81285]" name="addNewCustomer" duration-ms="89357" started-at="2020-07-05T16:23:04 IST" finished-at="2020-07-05T16:24:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:com.TestCases.TC03_AddCustomer@5ce81285]" name="tearUp" is-config="true" duration-ms="1172" started-at="2020-07-05T16:24:34 IST" finished-at="2020-07-05T16:24:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- com.TestCases.TC03_AddCustomer -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- InetBankingV1 -->
+</testng-results>

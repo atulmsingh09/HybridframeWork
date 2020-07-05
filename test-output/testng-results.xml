@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="InetBankingV1" duration-ms="30448" started-at="2020-07-04T16:50:26 IST" finished-at="2020-07-04T16:50:57 IST">
+    <groups>
+      <group name="TC01.skip">
+        <method signature="TC01_Login.loginTest()[pri:0, instance:com.TestCases.TC01_Login@74650e52]" name="loginTest" class="com.TestCases.TC01_Login"/>
+        <method signature="TC01_Login.loginTest()[pri:0, instance:com.TestCases.TC01_Login@3043fe0e]" name="loginTest" class="com.TestCases.TC01_Login"/>
+        <method signature="TC01_Login.loginTest()[pri:0, instance:com.TestCases.TC01_Login@86be70a]" name="loginTest" class="com.TestCases.TC01_Login"/>
+      </group> <!-- TC01.skip -->
+    </groups>
+    <test name="IE Test" duration-ms="30448" started-at="2020-07-04T16:50:26 IST" finished-at="2020-07-04T16:50:57 IST">
+      <class name="com.TestCases.TC01_Login">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.TestCases.TC01_Login@3043fe0e]" name="setup" is-config="true" duration-ms="9631" started-at="2020-07-04T16:50:27 IST" finished-at="2020-07-04T16:50:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.TestCases.TC01_Login@3043fe0e]" name="loginTest" duration-ms="20005" started-at="2020-07-04T16:50:36 IST" finished-at="2020-07-04T16:50:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:com.TestCases.TC01_Login@3043fe0e]" name="tearUp" is-config="true" duration-ms="734" started-at="2020-07-04T16:50:56 IST" finished-at="2020-07-04T16:50:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- com.TestCases.TC01_Login -->
+    </test> <!-- IE Test -->
+  </suite> <!-- InetBankingV1 -->
+</testng-results>
