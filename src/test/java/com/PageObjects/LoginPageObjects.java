@@ -26,6 +26,13 @@ public class LoginPageObjects {
 	@FindBy(css = "a[href='Logout.php']")
 	WebElement lnk_Logout;
 
+	@FindBy(xpath = "//td[text()='Manger Id : mngr267291']")
+	WebElement txtManagerID;
+	
+	public String  getTextManagerID() {
+		String txtmngr = txtManagerID.getText();
+		return txtmngr;
+	}
 	public void setUserID(String userID) {
 		txt_userID.clear();
 		txt_userID.sendKeys(userID);

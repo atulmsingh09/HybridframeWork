@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="InetBankingV1" duration-ms="93444" started-at="2020-07-06T10:00:21 IST" finished-at="2020-07-06T10:01:54 IST">
+  <suite name="InetBankingV1" duration-ms="177563" started-at="2020-07-06T12:18:13 IST" finished-at="2020-07-06T12:21:10 IST">
     <groups>
       <group name="TC01.skip">
         <method signature="TC01_Login.loginTest()[pri:0, instance:com.TestCases.TC01_Login@52a86356]" name="loginTest" class="com.TestCases.TC01_Login"/>
       </group> <!-- TC01.skip -->
     </groups>
-    <test name="Chrome Test" duration-ms="93444" started-at="2020-07-06T10:00:21 IST" finished-at="2020-07-06T10:01:54 IST">
+    <test name="Chrome Test" duration-ms="177563" started-at="2020-07-06T12:18:13 IST" finished-at="2020-07-06T12:21:10 IST">
       <class name="com.TestCases.TC01_Login">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.TestCases.TC01_Login@52a86356]" name="setup" is-config="true" duration-ms="18606" started-at="2020-07-06T10:00:21 IST" finished-at="2020-07-06T10:00:40 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.TestCases.TC01_Login@52a86356]" name="setup" is-config="true" duration-ms="24650" started-at="2020-07-06T12:18:13 IST" finished-at="2020-07-06T12:18:38 IST">
           <params>
             <param index="0">
               <value>
@@ -21,14 +21,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="loginTest()[pri:0, instance:com.TestCases.TC01_Login@52a86356]" name="loginTest" duration-ms="6226" started-at="2020-07-06T10:00:40 IST" finished-at="2020-07-06T10:00:46 IST">
+        <test-method status="FAIL" signature="loginTest()[pri:0, instance:com.TestCases.TC01_Login@52a86356]" name="loginTest" duration-ms="69760" started-at="2020-07-06T12:18:38 IST" finished-at="2020-07-06T12:19:47 IST">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[User is not able to signIn due to some issue  url of page http://demo.guru99.com/v4/index.php
+              <![CDATA[User is not able to signIn due to some issue  url of page http://demo.guru99.com/v4/manager/Managerhomepage.php
 ]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: User is not able to signIn due to some issue  url of page http://demo.guru99.com/v4/index.php
+              <![CDATA[java.lang.AssertionError: User is not able to signIn due to some issue  url of page http://demo.guru99.com/v4/manager/Managerhomepage.php
 
 at org.testng.AssertJUnit.fail(AssertJUnit.java:47)
 at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:20)
@@ -71,13 +71,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearUp()[pri:0, instance:com.TestCases.TC01_Login@52a86356]" name="tearUp" is-config="true" duration-ms="651" started-at="2020-07-06T10:00:47 IST" finished-at="2020-07-06T10:00:48 IST">
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:com.TestCases.TC01_Login@52a86356]" name="tearUp" is-config="true" duration-ms="1035" started-at="2020-07-06T12:20:30 IST" finished-at="2020-07-06T12:20:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
       </class> <!-- com.TestCases.TC01_Login -->
       <class name="com.TestCases.TC03_AddCustomer">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.TestCases.TC03_AddCustomer@5ce81285]" name="setup" is-config="true" duration-ms="22916" started-at="2020-07-06T10:00:48 IST" finished-at="2020-07-06T10:01:11 IST">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.TestCases.TC03_AddCustomer@5ce81285]" name="setup" is-config="true" duration-ms="13594" started-at="2020-07-06T12:20:31 IST" finished-at="2020-07-06T12:20:45 IST">
           <params>
             <param index="0">
               <value>
@@ -88,11 +88,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:com.TestCases.TC03_AddCustomer@5ce81285]" name="addNewCustomer" duration-ms="42785" started-at="2020-07-06T10:01:11 IST" finished-at="2020-07-06T10:01:53 IST">
+        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:com.TestCases.TC03_AddCustomer@5ce81285]" name="addNewCustomer" duration-ms="24957" started-at="2020-07-06T12:20:45 IST" finished-at="2020-07-06T12:21:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
-        <test-method status="PASS" signature="tearUp()[pri:0, instance:com.TestCases.TC03_AddCustomer@5ce81285]" name="tearUp" is-config="true" duration-ms="663" started-at="2020-07-06T10:01:53 IST" finished-at="2020-07-06T10:01:54 IST">
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:com.TestCases.TC03_AddCustomer@5ce81285]" name="tearUp" is-config="true" duration-ms="743" started-at="2020-07-06T12:21:10 IST" finished-at="2020-07-06T12:21:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->

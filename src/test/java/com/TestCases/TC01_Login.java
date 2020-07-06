@@ -33,12 +33,22 @@ public class TC01_Login extends BaseClass {
 
 		logger.info("Verify Page Title");
 		logger.info(((RemoteWebDriver) getWebDriver()).getCapabilities().getBrowserName().toUpperCase());
-		if (!getWebDriver().getTitle().equals("Guru99 Bank Manager HomePage")) {
-
+		
+		//String str = lp.getTextManagerID();
+		
+		System.out.println(lp.getTextManagerID());
+		if (!lp.getTextManagerID().contains("Manger")) {
 			logger.info("User is not able to signIn due to some issue " + getWebDriver().getCurrentUrl());
 			messages.add(
 					"User is not able to signIn due to some issue " + " url of page " + getWebDriver().getCurrentUrl());
 		}
+		
+		/*if (!getWebDriver().getPageSource().equals("Guru99 Bank Manager HomePage")) {   
+
+			logger.info("User is not able to signIn due to some issue " + getWebDriver().getCurrentUrl());
+			messages.add(
+					"User is not able to signIn due to some issue " + " url of page " + getWebDriver().getCurrentUrl());
+		}*/
 
 		if (messages.size() > 0)
 
