@@ -5,6 +5,7 @@ com\PageObjects\LoginPageObjects.class
 com\TestCases\TC03_AddCustomer.class
 com\Utilities\WebDriverFactory.class
 com\Utilities\ReadConfig.class
+com\TestCases\TC04_UpdateCustomer.class
 com\TestCases\TC01_Login.class
 com\Utilities\Utility.class
 com\Utilities\Reporting.class

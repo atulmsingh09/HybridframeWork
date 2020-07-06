@@ -505,3 +505,80 @@
 2020-07-05 16:24:30,295 [main] INFO ebanking - Password entered
 2020-07-05 16:24:31,287 [main] INFO ebanking - Customer detail submitted
 2020-07-05 16:24:34,318 [main] INFO ebanking - Test Case passed
+2020-07-05 23:52:35,921 [main] INFO ebanking - Open chrome Browser
+2020-07-05 23:52:42,613 [main] INFO ebanking - Maximize browser
+2020-07-05 23:52:46,646 [main] INFO ebanking - Open banking url
+2020-07-05 23:53:01,065 [main] INFO ebanking - Enter User ID
+2020-07-05 23:53:25,298 [main] INFO ebanking - Enter Password
+2020-07-05 23:53:42,459 [main] INFO ebanking - Click on Login button
+2020-07-05 23:54:06,119 [main] INFO ebanking - Verify Page Title
+2020-07-05 23:54:06,121 [main] INFO ebanking - CHROME
+2020-07-05 23:54:08,541 [main] INFO ebanking - Open chrome Browser
+2020-07-05 23:54:12,759 [main] INFO ebanking - Maximize browser
+2020-07-05 23:54:15,559 [main] INFO ebanking - Open banking url
+2020-07-05 23:54:20,601 [main] INFO ebanking - User ID entered
+2020-07-05 23:54:20,834 [main] INFO ebanking - Password entered
+2020-07-05 23:54:22,778 [main] INFO ebanking - Login button clicked
+2020-07-05 23:54:29,781 [main] INFO ebanking - Add New Customer link clicked
+2020-07-05 23:54:29,928 [main] INFO ebanking - Customer Name entered
+2020-07-05 23:54:30,050 [main] INFO ebanking - Gender selected
+2020-07-05 23:54:30,266 [main] INFO ebanking - Birthdate entered
+2020-07-05 23:54:33,456 [main] INFO ebanking - Address entered
+2020-07-05 23:54:33,622 [main] INFO ebanking - City entered
+2020-07-05 23:54:33,769 [main] INFO ebanking - State entered
+2020-07-05 23:54:33,908 [main] INFO ebanking - Pincoed entered
+2020-07-05 23:54:34,058 [main] INFO ebanking - Phone number entered
+2020-07-05 23:54:34,284 [main] INFO ebanking - Email ID entered
+2020-07-05 23:54:34,419 [main] INFO ebanking - Password entered
+2020-07-05 23:54:36,133 [main] INFO ebanking - Customer detail submitted
+2020-07-05 23:54:39,162 [main] INFO ebanking - Test Case passed
+2020-07-06 09:31:41,465 [main] INFO ebanking - Open chrome Browser
+2020-07-06 09:31:49,557 [main] INFO ebanking - Maximize browser
+2020-07-06 09:31:53,762 [main] INFO ebanking - Open banking url
+2020-07-06 09:36:53,858 [main] INFO ebanking - Open chrome Browser
+2020-07-06 09:36:58,439 [main] INFO ebanking - Maximize browser
+2020-07-06 09:37:01,487 [main] INFO ebanking - Open banking url
+2020-07-06 09:37:30,536 [main] INFO ebanking - User ID entered
+2020-07-06 09:37:30,744 [main] INFO ebanking - Password entered
+2020-07-06 09:37:31,088 [main] INFO ebanking - Login button clicked
+2020-07-06 09:37:35,139 [main] INFO ebanking - Add New Customer link clicked
+2020-07-06 09:37:35,275 [main] INFO ebanking - Customer Name entered
+2020-07-06 09:37:35,373 [main] INFO ebanking - Gender selected
+2020-07-06 09:37:35,653 [main] INFO ebanking - Birthdate entered
+2020-07-06 09:37:38,837 [main] INFO ebanking - Address entered
+2020-07-06 09:37:39,011 [main] INFO ebanking - City entered
+2020-07-06 09:37:39,161 [main] INFO ebanking - State entered
+2020-07-06 09:37:39,308 [main] INFO ebanking - Pincoed entered
+2020-07-06 09:37:39,456 [main] INFO ebanking - Phone number entered
+2020-07-06 09:37:39,679 [main] INFO ebanking - Email ID entered
+2020-07-06 09:37:39,815 [main] INFO ebanking - Password entered
+2020-07-06 09:37:42,077 [main] INFO ebanking - Customer detail submitted
+2020-07-06 09:37:45,125 [main] INFO ebanking - Test Case passed
+2020-07-06 10:00:21,491 [main] INFO ebanking - Open chrome Browser
+2020-07-06 10:00:26,813 [main] INFO ebanking - Maximize browser
+2020-07-06 10:00:29,647 [main] INFO ebanking - Open banking url
+2020-07-06 10:00:40,099 [main] INFO ebanking - Enter User ID
+2020-07-06 10:00:45,254 [main] INFO ebanking - Enter Password
+2020-07-06 10:00:45,470 [main] INFO ebanking - Click on Login button
+2020-07-06 10:00:46,218 [main] INFO ebanking - Verify Page Title
+2020-07-06 10:00:46,219 [main] INFO ebanking - CHROME
+2020-07-06 10:00:46,242 [main] INFO ebanking - User is not able to signIn due to some issue http://demo.guru99.com/v4/index.php
+2020-07-06 10:00:48,245 [main] INFO ebanking - Open chrome Browser
+2020-07-06 10:00:52,388 [main] INFO ebanking - Maximize browser
+2020-07-06 10:00:55,375 [main] INFO ebanking - Open banking url
+2020-07-06 10:01:32,370 [main] INFO ebanking - User ID entered
+2020-07-06 10:01:32,630 [main] INFO ebanking - Password entered
+2020-07-06 10:01:39,065 [main] INFO ebanking - Login button clicked
+2020-07-06 10:01:43,725 [main] INFO ebanking - Add New Customer link clicked
+2020-07-06 10:01:43,959 [main] INFO ebanking - Customer Name entered
+2020-07-06 10:01:44,132 [main] INFO ebanking - Gender selected
+2020-07-06 10:01:44,468 [main] INFO ebanking - Birthdate entered
+2020-07-06 10:01:47,623 [main] INFO ebanking - Address entered
+2020-07-06 10:01:47,796 [main] INFO ebanking - City entered
+2020-07-06 10:01:47,948 [main] INFO ebanking - State entered
+2020-07-06 10:01:48,092 [main] INFO ebanking - Pincoed entered
+2020-07-06 10:01:48,245 [main] INFO ebanking - Phone number entered
+2020-07-06 10:01:48,470 [main] INFO ebanking - Email ID entered
+2020-07-06 10:01:48,606 [main] INFO ebanking - Password entered
+2020-07-06 10:01:50,874 [main] INFO ebanking - Customer detail submitted
+2020-07-06 10:01:53,925 [main] INFO ebanking - Test Case passed

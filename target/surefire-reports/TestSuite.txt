@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 138.325 s - in TestSuite
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 95.605 s <<< FAILURE! - in TestSuite
+com.TestCases.TC01_Login.loginTest  Time elapsed: 6.245 s  <<< FAILURE!
+java.lang.AssertionError: 
+User is not able to signIn due to some issue  url of page http://demo.guru99.com/v4/index.php
+
+	at com.TestCases.TC01_Login.loginTest(TC01_Login.java:50)
+
